@@ -7,10 +7,54 @@ h1,
 h2 {
   margin-bottom: 0.5%;
 }
+
 li {
   font-size: xx-large;
 }
+.link {
+  margin-left: 0.5%;
+}
+.MyProject {
+  background-color: #2f4d47;
+}
+.HomeButton {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-right: 40%;
+  width: 50px;
+  height: 50px;
+}
 .Pic {
+  justify-content: center;
+  margin-top: 0.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.post {
+  height: 130px;
+  width: 200px;
+}
+.login {
+  height: 130px;
+  width: 200px;
+}
+.game {
+  height: 130px;
+  width: 130px;
+}
+.Cook {
+  height: 130px;
+  width: 130px;
+}
+.ProjectButton {
+  background-color: #3c665e00;
+  border: 0cm;
+  color: rgb(0, 106, 255);
+}
+.ProjectButton:hover {
+  color: rgb(0, 190, 28);
+}
+.PicButton {
   justify-content: center;
   margin-top: 0.5%;
   display: flex;
@@ -22,10 +66,32 @@ li {
   margin-bottom: 2%;
   text-align: center;
 }
+.PPG {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 170px;
+  width: 200px;
+}
+.PRG {
+  height: 170px;
+  width: 100px;
+}
+.PP1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 200px;
+  width: 200px;
+}
+.Dodge {
+  height: 220px;
+  width: 170px;
+  margin-bottom: 1%;
+}
 .P1 {
   border: #3c665e solid 10px;
   border-radius: 100%;
-  width: 25%;
+  height: 420px;
+  width: 400px;
 }
 .house {
   height: 200px;
@@ -36,9 +102,8 @@ li {
   margin-left: 10px;
 }
 .Skill img {
-  width: 20%;
   height: 20%;
-  margin-bottom: 1%;
+  width: 20%;
 }
 .Interest {
   margin-left: 10px;
@@ -51,6 +116,7 @@ li {
 }
 .AllData > div {
   border: 1px solid black;
+  font-size: 30px;
   background-color: #2f4d47;
 }
 #PersonalDetail {
@@ -60,22 +126,66 @@ li {
 #Education {
   margin-left: 3%;
   grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
+  grid-row: 3 / span 1;
 }
 #RightData {
   margin-left: 2%;
   grid-column: 2 / span 1;
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 3;
 }
 
 a:hover {
   color: rgb(0, 190, 28);
 }
 @media only screen and (max-width: 767px) {
-  li {
-    font-size: small;
+  .HomeButton {
+    margin-right: 30%;
+  }
+
+  .Dodge {
+    height: 180px;
+    width: 130px;
+  }
+  .PP1 {
+    height: 100px;
+    width: 100px;
+  }
+  .house {
+    height: 100px;
+    width: 180px;
+  }
+  .PPG {
+    height: 100px;
+    width: 130px;
+  }
+  .PRG {
+    height: 160px;
+    width: 130px;
+  }
+  .post {
+    height: 100px;
+    width: 150px;
+  }
+  .login {
+    height: 100px;
+    width: 150px;
+  }
+  .game,
+  .Cook {
+    height: 100px;
+    width: 100px;
+  }
+  h2 {
+    font-size: large;
   }
   h1 {
-    font-size: large;
+    font-size: xx-large;
+  }
+  .HomeButton {
+    width: 25px;
+    height: 25px;
+  }
+  li {
+    font-size: medium;
   }
 }
